@@ -15,7 +15,7 @@
         <global-nav></global-nav>
         <div class="main-wrapper">
           <div v-for="article in articles">
-            <a v-bind:href="article.url" target="_blank">
+            <a v-bind:href="article.url" target="_blank" v-if="article.title">
               <div class="article-card">
                 <p class="article-title">{{ article.title }}</p>
               </div>
