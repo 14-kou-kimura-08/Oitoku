@@ -53,8 +53,10 @@ a {
     letter-spacing: 2px;
     font-size: 1.2em;
     height: auto;
+    max-height: 220px;
     margin-bottom: 15px;
-    break-inside: avoid
+    break-inside: avoid;
+    overflow: hidden;
 }
 
 @media (max-width: 599px) {
